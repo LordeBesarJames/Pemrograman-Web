@@ -1,0 +1,221 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #DAC3B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #cdab81;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left-side{
+    position: relative;
+    background:  #6c5f5b;
+    padding: 40px;
+
+}
+.container .right-side{
+    position: relative;
+    background: #cdab81;
+    padding: 40px;
+
+}
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(247, 228, 195);
+}
+
+.profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h3{
+  color: #cdab81;
+  font-size: 1.5em;
+  margin-top: 20px;
+    font-size:larger;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+
+}
+
+.profileText h3 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactInfo{
+    padding-top: 40px;
+}
+
+.title{
+    color: #cdab81;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul{
+    position: relative;
+}
+
+.contactInfo ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display:inline-block ;
+    width: 30px;
+    font-size: 18px;
+    color: #cdab81;
+}
+
+.contactInfo ul li span{
+    color: #DAC3B3;
+    font-size: small;
+}
+
+.contactInfo.education li{
+margin-bottom: 15px;
+}
+
+.contactInfo.education h5{
+    color:#cdab81;
+    font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2){
+    color: #DAC3B3;
+    font-size: small;
+    font-weight: 1000;
+}
+
+
+.contactInfo.education h4{
+    color: #DAC3B3;
+    font-size: small;
+    font-weight: 300;
+}
+
+.contactInfo.Languages .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color:#332e2d ;
+    display: block;
+    margin-top: 5px;
+}
+
+.contactInfo.Languages .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #DAC3B3;
+}
+
+.about{
+    
+    margin-bottom: 50px; 
+    color: #454442;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color:#6c5f5b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.garis-pembatas{
+    border: none;
+    background-color: black;
+    height: 1px;
+    margin-bottom: 2px;
+}
+
+.pembatas{
+   color: #454442;
+}
+
+.profile{
+   margin: 30px;
+}
+
+
+.education{
+    margin-top: 1%;
+    
+}
+
+.education-line{
+    height: 1px;
+    margin-bottom: 2px;
+    border: none;
+    
+}
+
+.tanggal{
+    text-align: end;
+}
+
+.keterangan-science{
+    margin-top: 0px;
+    color: #454442;
+}
+
+.li-point{
+    margin-left: 25px;margin-top: -3px;
+}
+
+.organizational{
+    margin-top:-40px;
+    color: #454442;
+   
+
+}
